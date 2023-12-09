@@ -24,6 +24,7 @@ CREATE TABLE professor (
 
 -- Inserção de dados na tabela professor
 INSERT INTO professor (`idprofessor`, `nome`) VALUES (1, 'Joao Paulo');
+INSERT INTO professor (`idprofessor`, `nome`) VALUES (2, 'Gustavo');
 -- Adicione mais dados conforme necessário...
 
 -- Criação da Tabela curso
