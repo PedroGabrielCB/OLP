@@ -129,7 +129,7 @@ const total = (somaProgresso * 100) / somaProgressoCarga
                 <ProgressContainer>
                     <ProgressViewContainer>
                         <Title>
-                            Progress
+                            Progresso
                         </Title>
                         <CardContainer>
                             <CardLabel>Progresso Atual</CardLabel>

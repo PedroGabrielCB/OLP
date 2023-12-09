@@ -61,7 +61,7 @@ function Home() {
 
     const options = [
         {
-          title: "Courses in progress",
+          title: "Cursos Em Progresso",
           icon: cap,
           value: inscricao ? inscricao.length : null,
         },
@@ -71,7 +71,7 @@ function Home() {
           value: 0,
         },
         {
-          title: "Hours Learning",
+          title: "Horas Adquiridas",
           icon: clock,
           value: converterParaHorasMinutos(somaProgresso),
         },
@@ -89,7 +89,7 @@ function Home() {
         <OverviewLiveContainer>
             <OverViewContainer>
                 <Title>
-                    Overview
+                    Resumo
                 </Title>
                 <CardContainer>
                   {options.map((item) => <CardSmall title={item.title} value={item.value} icon={item.icon}/>)}
@@ -98,7 +98,7 @@ function Home() {
             <LiveEventsContainer>
                 <HeaderTitle>
                     <Title>
-                        LIVE EVENTS
+                        LIVES
                     </Title>
                     <IconContainer>
                         <Icon src={left} tam="30px" onClick={() => index > 0 && setIndex(prev => prev - 1)}/>
@@ -122,7 +122,7 @@ function Home() {
             </StasticsProgressContainer>
             <ActivityContainer>
                 <Title>
-                    Activity
+                    Notificações
                 </Title>
                 <ActivityCardContainer>
                     {notificacao.map((not) => <ActivityCard title={not.tittle} value={not.body}/>)}

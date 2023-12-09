@@ -7,7 +7,7 @@ function ProgressCard() {
     <MainContainer>
         <TitleContainer>
             <Title>
-                PROGRESS  
+                PROGRESSO - (VALORES FAKES)  
             </Title>
         </TitleContainer>
         <InfoContainer>
