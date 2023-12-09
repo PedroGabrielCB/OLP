@@ -112,7 +112,7 @@ INSERT INTO evento (`idevento`, `nome`,`idprofessor`) VALUES (2, 'Plantão Desen
 
 -- Inserção de dados na tabela conteudo
 -- Certifique-se de que as referências em idcurso e idusuario existem na tabela curso e usuario, respectivamente.
-INSERT INTO conteudo (`idcurso`, `titulo`, `body`, `concluido`, `idusuario`, `tempo`) VALUES (1, 'Conteudo 1', 'Corpo do Conteudo 1', 1, 1, 60);
+
 -- Adicione mais dados conforme necessário...
 
 -- Criação da Tabela historico
